@@ -56,6 +56,12 @@ header h1 {
   color: #0077cc;
 }
 
+header h3 {
+  margin: 0;
+  color: #0077cc;
+}
+
+
 .logo-section {
   display: flex;
   align-items: center;
