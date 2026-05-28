@@ -3,6 +3,40 @@
   box-sizing: border-box;
 }
 
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-title img {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-title h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0066cc;
+}
+
+.logo-title img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .logo-title img {
+    height: 38px;
+  }
+
+  .logo-title h1 {
+    font-size: 1.4rem;
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
