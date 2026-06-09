@@ -959,3 +959,167 @@ footer {
 
   transform: translateY(-2px);
 }
+/* =========================
+   UNIVERSAL RESPONSIVE FIXES
+   ========================= */
+
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.tools-table-container,
+.table-section {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Large tablets */
+@media screen and (max-width: 1024px) {
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero-text {
+    font-size: 32px;
+  }
+
+  .container {
+    margin-top: -100px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+
+  body {
+    background-attachment: scroll;
+  }
+
+  header {
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    gap: 12px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 50px 20px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero-text {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -60px;
+  }
+
+  .timeline-step {
+    width: 100%;
+  }
+
+  .contact-box {
+    padding: 25px;
+  }
+
+  .contact-box h2 {
+    font-size: 28px;
+  }
+
+  .contact-box p {
+    font-size: 16px;
+  }
+
+  .table-search {
+    width: 95%;
+  }
+
+  .modal-content {
+    width: 95%;
+    height: 90%;
+  }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+
+  .logo-title img {
+    height: 32px;
+  }
+
+  .time {
+    display: none;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-description {
+    font-size: 20px;
+  }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .contact-btn {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .tool-content {
+    flex-direction: column;
+  }
+
+  .tools-table img {
+    width: 120px;
+    height: 120px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
+/* Ultra wide screens */
+@media screen and (min-width: 1600px) {
+
+  .hero h2 {
+    max-width: 1000px;
+  }
+
+  .container {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
