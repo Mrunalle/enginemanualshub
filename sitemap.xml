@@ -2,9 +2,34 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://enginemanualshub.com/</loc>
-<priority>1.0</priority>
-</url>
+    <url>
+        <loc>https://enginemanualshub.com/</loc>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://enginemanualshub.com/mtu-engine-manuals-&amp;-documentation</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://enginemanualshub.com/gas-engine-documentation</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://enginemanualshub.com/automation</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://enginemanualshub.com/rentaltools</loc>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://enginemanualshub.com/faq</loc>
+        <priority>0.8</priority>
+    </url>
 
 </urlset>
